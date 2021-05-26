@@ -17,7 +17,9 @@ def quicksort arr, lo = 0, hi = nil
   quicksort arr, lo, pivot-1
   quicksort arr, pivot+1, hi
 end
-puts "Welcome to algorithm_Sort. This was maybe made by SIE (Warren Patal) and the S.A.T.O Project."
+
 puts "What Charecters Would You Like to Sort?"
+
 numberInput = gets.chomp 
+
 puts quicksort numberInput
