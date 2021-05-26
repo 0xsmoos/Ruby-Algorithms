@@ -6,7 +6,9 @@ def perm arr, i = 0;
     arr[i], arr[j] = arr[j], arr[i]
    end 
 end 
-puts "Welcome to algorithm_Find. This was maybe made by SIE (Warren Patal) and the S.A.T.O Project."
+
 puts "What is Your String?"
+
 numberInput = gets.chomp 
+
 perm numberInput
